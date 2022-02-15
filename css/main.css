@@ -89,7 +89,7 @@ header nav ul li a{
 	height: auto;
 	float: left;
 }
-.main-title h3 {
+.main-title h2 {
 	text-align: left;
 	padding: 5px 0; 
 	color: #45601f;
@@ -113,7 +113,7 @@ header nav ul li a{
 	border-bottom: 3px solid #eee;
 }
 
-.section-one h4 {
+.section-one h3 {
 	padding: 10px 0;
 }
 
@@ -122,8 +122,8 @@ header nav ul li a{
 	border-right: 1px solid #eee;
 }
 
-.section-two h4,
-.section-three h4 {
+.section-two h3,
+.section-three h3 {
 	padding: 10px 30px;
 }
 
