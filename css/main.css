@@ -23,7 +23,8 @@ h2 {
 	font-size: 24px;
 }
 h3 {
-	font-size: 18px;
+	/* font-size: 18px; */
+	font-size: 20px;
 }
 h4 {
 	font-size: 12px;
@@ -32,7 +33,9 @@ h4 {
 p {
 	font-size: 14px;
 	line-height: 21px;
+	line-height: 28px; /**/
     padding: 0 30px;
+	padding: 0 50px;
 }
 
 header {
@@ -98,53 +101,67 @@ header nav ul li a{
 	padding: 0;
 	font-size: 16px;
 	line-height: 25px;
+	line-height: 36px; /**/
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 399px;
-	height: auto;
+	/* width: 399px; */
+	width: 400px;
+	/* height: auto; */ /* needed? */
 	float: left;
+	box-sizing: border-box;
 	/* border-top: 1px solid #eee; */
 }
 .bottom-section .content-wrapper {
-	border-top: 3px solid #eee;
-	border-bottom: 3px solid #eee;
+	border-top: 5px solid #eee;
+	border-bottom: 5px solid #eee; /* changed to 5px */
 }
 
 .section-one h3 {
-	padding: 10px 0;
+	/* padding: 10px 0; */
+	padding: 10px 60px;
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border-left: 5px solid #eee;
+	border-right: 5px solid #eee; /* changed to 5px */
 }
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	/* padding: 10px 30px; */
+	padding: 10px 60px;
 }
 
 .menu {
 	list-style: none;
-	padding: 0;
+	/* padding: 0; */
+	padding: 0 60px; /* Lizu's design has the menu shifted to the right */
+
 }
 .menu li {
-	padding: 10px 0;
+	/* padding: 10px 0; */
 	color:#45610e;
+	line-height: 36px;
 }
 
 .reviews {
 	color: #333;
 	font-size: 16px;
 	line-height: 21px;
+	line-height: 32px; /**/
+	line-height: 24px;
+	line-height: 36px;
+	padding: 0 60px;
 }
 
 .address {
 	font-size: 16px;
 	line-height: 24px;
+	line-height: 36px;
+	padding: 0 60px;
 }
 
 footer {
